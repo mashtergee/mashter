@@ -31,5 +31,5 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: website deploying surge
-      run: surge ./ mashter.surge.sh --token ${{secrets.firsttoken}}
+      run: surge ./ mashter.surge.sh --token "b0bcd6355ee4d22570772f2ba9b973bc"
        
